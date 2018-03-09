@@ -30,7 +30,7 @@ class DashboardActivity : CarActivity() {
         sc.showClock()
         sc.showConnectivityLevel()
         sc.showMicButton()
-        sc.setTitle(applicationContext.getString(R.string.dashboard_title))
+        sc.hideTitle()
     }
 
 }

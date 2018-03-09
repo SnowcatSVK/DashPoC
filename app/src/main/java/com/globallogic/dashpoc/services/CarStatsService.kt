@@ -83,7 +83,6 @@ class CarStatsService : Service() {
                 })
             }
         }
-        logger.writeMeasurements(date, dataBaseValues, "database")
     }
 
     override fun onStartCommand(intent: Intent, flags: Int, startId: Int): Int {
